@@ -1,3 +1,6 @@
-import { countBits } from './bit-counting-solution'
+import { countBits } from './bit-counting'
 import { isSquare } from './you-are-square'
-export { countBits, isSquare }
+import { getCount } from './vowel-count'
+import { highAndLow } from './highest-and-lowest'
+import { findShort } from './shortest-word'
+export { countBits, isSquare, findShort, getCount, highAndLow }

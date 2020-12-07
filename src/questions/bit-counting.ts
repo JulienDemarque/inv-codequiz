@@ -7,8 +7,4 @@
 */
 export function countBits(n: number) {
   // Program Me
-  return n
-    .toString(2)
-    .split('')
-    .reduce((acc, currentBit) => acc + Number(currentBit), 0)
 }
